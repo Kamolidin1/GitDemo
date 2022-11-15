@@ -30,7 +30,7 @@ class TestE2E(BaseClass):
         trade.get_send().click()
         trade.get_notification().click()
         trade.get_order_confirmation()
-        login.get_logout_button().click()
+        #login.get_logout_button().click()
 
     @pytest.fixture(params=TestData.test_data)
     def data_load(self, request):
